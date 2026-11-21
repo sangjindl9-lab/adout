@@ -8,7 +8,7 @@
 
 ## 1. 단위 테스트 — `./gradlew testDebugUnitTest`
 
-결과: **BUILD SUCCESSFUL**, **83 tests, 0 failures**
+결과: **BUILD SUCCESSFUL**, **88 tests, 0 failures**
 
 | 테스트 클래스 | 건수 | 검증 내용 |
 | --- | --- | --- |
@@ -22,6 +22,7 @@
 | `UpdateVerifierTest` | 7 | Ed25519 정상 서명, 본문 변조, 다른 키, 공개키 미설정, SHA-256/크기 불일치, 롤백 차단, HTTP URL 거부 |
 | `UpdateClientTest` | 8 | 서명된 해시/규칙/필터 업데이트 적용, 페이로드 변조 시 기존 데이터 유지, 서명 오류, 다운그레이드 거부, 설정 없음, HTTP 오류 |
 | `ShippedUpdateChannelTest` | 4 | 저장소에 커밋된 서명 테스트 채널(`testdata/update`)의 공개키·서명·페이로드 해시·레코드 수 검증 |
+| `Sha256Test` | 5 | 표준 테스트 벡터(빈 문자열/abc/hello), 스트리밍 해시 일치, 크기 한도, hex 검증, 파일 해시·접근 실패 |
 | `MigrationTest` | 2 | exported schema(v1) DDL 로 실제 v1 DB 생성 → v2 마이그레이션 후 Room 스키마 검증·데이터 보존·신규 컬럼 사용, 16개 테이블 존재 |
 
 수치 근거: `app/build/test-results/testDebugUnitTest/*.xml`
