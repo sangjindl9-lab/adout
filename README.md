@@ -30,14 +30,20 @@ UI는 6개 화면(홈/광고 차단/악성코드 검사/검사 결과/보안 DB/
 
 ## 문서
 
-- [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) — 구조와 데이터 흐름
-- [docs/TEST_REPORT.md](docs/TEST_REPORT.md) — 실제 테스트/빌드 결과
+- [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) — 구조와 데이터 흐름- [docs/TEST_REPORT.md](docs/TEST_REPORT.md) — 실제 테스트/빌드 결과
 - [docs/KNOWN_LIMITATIONS.md](docs/KNOWN_LIMITATIONS.md) — 알려진 제한과 미구현 기능
 - [docs/OPERATIONS_GUIDE.md](docs/OPERATIONS_GUIDE.md) — 운영·업데이트 설명서
 - [docs/PLAY_STORE_SUBMISSION.md](docs/PLAY_STORE_SUBMISSION.md) — Play 등록 자료(VPN·QUERY_ALL_PACKAGES 신고)
 - [docs/PRIVACY_POLICY.md](docs/PRIVACY_POLICY.md) — 개인정보 처리방침 초안
 - [docs/THIRD_PARTY_LICENSES.md](docs/THIRD_PARTY_LICENSES.md) — 오픈소스 라이선스
 - [docs/UPDATE_GUIDE.md](docs/UPDATE_GUIDE.md) — 서명된 업데이트 채널 운영 방법
+
+## 업데이트 채널
+
+`gradle.properties` 의 `updateBaseUrl` / `updatePublicKey` 로 서명된 채널을 지정합니다.
+저장소의 `testdata/update` 는 **테스트 데이터**로 연결되어 있어, 보안 DB 화면에서 "지금 업데이트"를
+누르면 실제로 내려받아 Ed25519 서명과 SHA-256 을 검증한 뒤 적용합니다(UI 에 "예시 데이터" 표시).
+운영 배포 시 운영 서버/키로 교체하세요 — [docs/UPDATE_GUIDE.md](docs/UPDATE_GUIDE.md).
 
 ## 면책
 

@@ -1,3 +1,3 @@
-5db2ffd7ec76815dc2ba27c614feeecb5b9666b0a77ffc34e27d867ad01cc609  eum-security-pro-debug.apk
-b212b280e6ac403d478d2d15b8c02e8b5480240632b1ac1fa8a3df5460808a26  eum-security-pro-release.apk
-1e26da0c0920a24f16834e60a4262830b9d9a6ccd070f083db22544ef931655e  eum-security-pro-release.aab
+ab777da5305ec654efc1aa897fd85da93d14663485862f55fc70b38dea1e72ee  eum-security-pro-debug.apk
+d5ea2f190838627556e23c0bcace7c62399363b1b9a7616075ddd62a96026236  eum-security-pro-release.apk
+e3290044de11a79972901aa19e80bd94b2ac2d8441c7af2fd8a649c570753c1c  eum-security-pro-release.aab

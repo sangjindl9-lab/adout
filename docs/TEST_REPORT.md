@@ -8,7 +8,7 @@
 
 ## 1. 단위 테스트 — `./gradlew testDebugUnitTest`
 
-결과: **BUILD SUCCESSFUL**, **79 tests, 0 failures**
+결과: **BUILD SUCCESSFUL**, **83 tests, 0 failures**
 
 | 테스트 클래스 | 건수 | 검증 내용 |
 | --- | --- | --- |
@@ -21,6 +21,7 @@
 | `RiskAssessorTest` | 10 | 4단계 판정(위험/주의/미발견/불가), 점수 상한, SMS+인터넷 등 권한 조합, 신뢰 앱 완화, exported 컴포넌트 |
 | `UpdateVerifierTest` | 7 | Ed25519 정상 서명, 본문 변조, 다른 키, 공개키 미설정, SHA-256/크기 불일치, 롤백 차단, HTTP URL 거부 |
 | `UpdateClientTest` | 8 | 서명된 해시/규칙/필터 업데이트 적용, 페이로드 변조 시 기존 데이터 유지, 서명 오류, 다운그레이드 거부, 설정 없음, HTTP 오류 |
+| `ShippedUpdateChannelTest` | 4 | 저장소에 커밋된 서명 테스트 채널(`testdata/update`)의 공개키·서명·페이로드 해시·레코드 수 검증 |
 | `MigrationTest` | 2 | exported schema(v1) DDL 로 실제 v1 DB 생성 → v2 마이그레이션 후 Room 스키마 검증·데이터 보존·신규 컬럼 사용, 16개 테이블 존재 |
 
 수치 근거: `app/build/test-results/testDebugUnitTest/*.xml`
@@ -35,9 +36,9 @@
 
 | 산출물 | 경로 | 크기 | SHA-256 |
 | --- | --- | --- | --- |
-| Debug APK | `app/build/outputs/apk/debug/app-debug.apk` | 31,695,514 bytes | `5db2ffd7ec76815dc2ba27c614feeecb5b9666b0a77ffc34e27d867ad01cc609` |
-| Release APK | `app/build/outputs/apk/release/app-release.apk` | 3,851,510 bytes | `b212b280e6ac403d478d2d15b8c02e8b5480240632b1ac1fa8a3df5460808a26` |
-| Release AAB | `app/build/outputs/bundle/release/app-release.aab` | 4,427,510 bytes | `1e26da0c0920a24f16834e60a4262830b9d9a6ccd070f083db22544ef931655e` |
+| Debug APK | `app/build/outputs/apk/debug/app-debug.apk` | 31,788,790 bytes | `ab777da5305ec654efc1aa897fd85da93d14663485862f55fc70b38dea1e72ee` |
+| Release APK | `app/build/outputs/apk/release/app-release.apk` | 3,851,510 bytes | `d5ea2f190838627556e23c0bcace7c62399363b1b9a7616075ddd62a96026236` |
+| Release AAB | `app/build/outputs/bundle/release/app-release.aab` | 4,427,533 bytes | `e3290044de11a79972901aa19e80bd94b2ac2d8441c7af2fd8a649c570753c1c` |
 
 `/workspace/downloads/` 에 동일 파일 복사:
 `eum-security-pro-debug.apk`, `eum-security-pro-release.apk`, `eum-security-pro-release.aab`

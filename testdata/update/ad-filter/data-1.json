@@ -1,0 +1,1 @@
+{"source":"EUM 테스트 필터 (서명 업데이트)","category":"ADS","license":"자체 작성(Apache-2.0)","rules":["||ads.eum-test.example^","||tracker.eum-test.example^","||malware.eum-test.example^","||phish-login.eum-test.example^","@@||allowed.eum-test.example^","0.0.0.0 banner.eum-test.example"]}
