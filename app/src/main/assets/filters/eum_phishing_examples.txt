@@ -1,0 +1,18 @@
+# EUM SECURITY PRO 피싱·악성 도메인 — 예시(테스트) 데이터
+# 실제 위협 인텔리전스 데이터가 아닙니다. 서명된 업데이트로 교체하기 전까지는
+# isTestData=true 로 표시되어 UI 에 "예시 데이터" 라고 안내됩니다.
+# 라이선스: 자체 작성(Apache-2.0)
+
+# 피싱(로그인/결제 위장) 예시
+||login-verify-account.example^
+||secure-pay-update.example^
+||account-confirm-billing.example^
+||eum-phish-demo.example^
+||bank-security-check.example^
+
+# 악성코드 배포 예시
+||apk-update-now.example^
+||free-mod-apk.example^
+
+# 명령제어(C2) 예시
+||c2-beacon-demo.example^

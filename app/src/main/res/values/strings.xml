@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EUM SECURITY PRO</string>
+
+    <!-- 공통 -->
+    <string name="ok">확인</string>
+    <string name="cancel">취소</string>
+    <string name="close">닫기</string>
+    <string name="delete">삭제</string>
+    <string name="add">추가</string>
+    <string name="save">저장</string>
+    <string name="retry">다시 시도</string>
+    <string name="back">뒤로</string>
+    <string name="unknown">알 수 없음</string>
+    <string name="none">없음</string>
+    <string name="loading">불러오는 중…</string>
+    <string name="test_data_badge">예시 데이터</string>
+    <string name="version_label">버전</string>
+    <string name="records_label">규칙 수</string>
+    <string name="updated_label">업데이트</string>
+    <string name="search">검색</string>
+
+    <!-- 내비게이션 -->
+    <string name="nav_home">홈</string>
+    <string name="nav_adblock">광고 차단</string>
+    <string name="nav_scan">악성코드 검사</string>
+    <string name="nav_db">보안 DB</string>
+    <string name="nav_settings">설정</string>
+    <string name="nav_home_desc">보안 상태 요약 화면으로 이동</string>
+    <string name="nav_adblock_desc">광고·추적 차단 설정 화면으로 이동</string>
+    <string name="nav_scan_desc">악성코드 검사 화면으로 이동</string>
+    <string name="nav_db_desc">보안 데이터베이스 화면으로 이동</string>
+    <string name="nav_settings_desc">설정 화면으로 이동</string>
+
+    <!-- 홈 -->
+    <string name="home_title">보안 상태</string>
+    <string name="home_subtitle_safe">알려진 위협이 발견되지 않았습니다.</string>
+    <string name="home_subtitle_warning">확인이 필요한 항목이 있습니다.</string>
+    <string name="home_subtitle_danger">위험한 항목이 발견되었습니다.</string>
+    <string name="home_subtitle_unknown">아직 검사 기록이 없습니다.</string>
+    <string name="home_state_safe">보호 중</string>
+    <string name="home_state_warning">주의</string>
+    <string name="home_state_danger">위험</string>
+    <string name="home_state_unknown">검사 필요</string>
+    <string name="home_adblock_title">광고·추적 차단</string>
+    <string name="home_adblock_on">차단 켜짐</string>
+    <string name="home_adblock_off">차단 꺼짐</string>
+    <string name="home_scan_button">악성코드 검사 시작</string>
+    <string name="home_scan_running">검사 중…</string>
+    <string name="home_last_scan">마지막 검사</string>
+    <string name="home_last_scan_none">검사 기록 없음</string>
+    <string name="home_today_blocked">오늘 차단한 요청</string>
+    <string name="home_total_blocked">전체 차단</string>
+    <string name="home_danger_apps">위험 앱</string>
+    <string name="home_db_status">보안 DB</string>
+    <string name="home_db_never">업데이트 기록 없음</string>
+    <string name="home_db_update_button">지금 업데이트</string>
+    <string name="home_vpn_section">광고 차단 VPN</string>
+    <string name="home_privacy_note">DNS 기록과 검사 결과는 기기 안에만 저장됩니다.</string>
+    <string name="home_blocked_unit">건</string>
+    <string name="home_dns_label">DNS</string>
+
+    <!-- 광고 차단 -->
+    <string name="adblock_title">광고 차단</string>
+    <string name="adblock_vpn_state">VPN 상태</string>
+    <string name="adblock_vpn_running">연결됨</string>
+    <string name="adblock_vpn_stopped">연결 안 됨</string>
+    <string name="adblock_vpn_paused">일시 중지</string>
+    <string name="adblock_vpn_start">VPN 켜기</string>
+    <string name="adblock_vpn_stop">VPN 끄기</string>
+    <string name="adblock_vpn_permission">VPN 사용에 동의해야 광고 차단이 시작됩니다.</string>
+    <string name="adblock_pause_15">15분 중지</string>
+    <string name="adblock_resume">다시 켜기</string>
+    <string name="adblock_toggle_ads">광고 차단</string>
+    <string name="adblock_toggle_tracking">추적 차단</string>
+    <string name="adblock_toggle_phishing">피싱 차단</string>
+    <string name="adblock_toggle_malware">악성 도메인 차단</string>
+    <string name="adblock_filters">필터 목록</string>
+    <string name="adblock_filter_rules">%1$d개 규칙</string>
+    <string name="adblock_filter_license">라이선스: %1$s</string>
+    <string name="adblock_filter_updated">마지막 업데이트: %1$s</string>
+    <string name="adblock_filter_never">없음</string>
+    <string name="adblock_allowlist">허용 목록</string>
+    <string name="adblock_blocklist">차단 목록</string>
+    <string name="adblock_add_domain">도메인 추가</string>
+    <string name="adblock_domain_hint">예: example.com</string>
+    <string name="adblock_domain_invalid">올바른 도메인이 아닙니다.</string>
+    <string name="adblock_empty_allow">허용한 도메인이 없습니다.</string>
+    <string name="adblock_empty_block">직접 차단한 도메인이 없습니다.</string>
+    <string name="adblock_recent_blocks">최근 차단 기록</string>
+    <string name="adblock_empty_blocks">차단 기록이 없습니다.</string>
+    <string name="adblock_allow_this">허용</string>
+    <string name="adblock_excluded_apps">앱별 예외</string>
+    <string name="adblock_excluded_desc">선택한 앱은 VPN 을 사용하지 않습니다.</string>
+    <string name="adblock_stats">차단 통계</string>
+    <string name="adblock_stats_today">오늘</string>
+    <string name="adblock_stats_total">전체</string>
+    <string name="adblock_stats_ads">광고</string>
+    <string name="adblock_stats_tracking">추적</string>
+    <string name="adblock_stats_malware">악성</string>
+    <string name="adblock_hourly">시간대별 차단</string>
+    <string name="adblock_no_stats">표시할 통계가 없습니다.</string>
+    <string name="adblock_limit_note">DNS 방식은 앱 안에 이미 들어 있는 광고나 HTTPS 영상 광고를 제거하지 못합니다. 차단 건수는 광고 제거 건수가 아닙니다.</string>
+    <string name="adblock_dns_settings">DNS 서버 설정</string>
+    <string name="adblock_upstream">업스트림</string>
+
+    <!-- 검사 -->
+    <string name="scan_title">악성코드 검사</string>
+    <string name="scan_quick">빠른 검사</string>
+    <string name="scan_quick_desc">설치 앱의 해시와 최근 변경된 앱을 검사합니다.</string>
+    <string name="scan_installed">설치 앱 검사</string>
+    <string name="scan_installed_desc">설치된 모든 앱의 메타데이터와 APK 를 검사합니다.</string>
+    <string name="scan_apk">APK 파일 검사</string>
+    <string name="scan_apk_desc">파일을 선택해 코드 실행 없이 정적 분석합니다.</string>
+    <string name="scan_progress">검사 진행</string>
+    <string name="scan_current">검사 중</string>
+    <string name="scan_stop">검사 중지</string>
+    <string name="scan_results">검사 결과 보기</string>
+    <string name="scan_found_danger">위험 %1$d</string>
+    <string name="scan_found_warning">주의 %1$d</string>
+    <string name="scan_history">최근 검사</string>
+    <string name="scan_empty_history">검사 기록이 없습니다.</string>
+    <string name="scan_target_count">%1$d개 대상</string>
+    <string name="scan_permission_note">다른 앱의 APK 파일에 접근할 수 없는 경우 메타데이터만 검사하며, 결과에 그 사실을 표시합니다.</string>
+    <string name="scan_cancelled">검사가 중지되었습니다.</string>
+
+    <!-- 결과 -->
+    <string name="result_title">검사 결과</string>
+    <string name="result_summary">요약</string>
+    <string name="result_scanned_at">검사 시각</string>
+    <string name="result_engines">실행한 엔진</string>
+    <string name="result_found">발견된 근거</string>
+    <string name="result_no_findings">실행된 검사 범위에서 알려진 위협이 발견되지 않았습니다.</string>
+    <string name="result_unscanned">검사하지 못한 항목</string>
+    <string name="result_advice">권장 조치</string>
+    <string name="result_open_app_info">앱 정보 열기</string>
+    <string name="result_uninstall">삭제 화면 열기</string>
+    <string name="result_report">오탐 신고</string>
+    <string name="result_report_subject">EUM SECURITY PRO 오탐 신고</string>
+    <string name="result_report_body">다음 항목이 오탐으로 의심됩니다.\n\n패키지: %1$s\n판정: %2$s\n근거: %3$s\n\n(이 메일은 사용자가 직접 검토 후 발송됩니다.)</string>
+    <string name="result_rescan">다시 검사</string>
+    <string name="result_risk_danger">위험</string>
+    <string name="result_risk_warning">주의</string>
+    <string name="result_risk_not_found">알려진 위협 미발견</string>
+    <string name="result_risk_unable">검사 불가</string>
+    <string name="result_evidence">근거</string>
+    <string name="result_score">위험 점수</string>
+    <string name="result_apps_count">검사 대상 %1$d개</string>
+    <string name="result_no_app">앱 정보를 열 수 없습니다.</string>
+    <string name="result_no_uninstall">삭제 화면을 열 수 없습니다.</string>
+
+    <!-- 보안 DB -->
+    <string name="db_title">보안 DB</string>
+    <string name="db_filter_db">광고 필터</string>
+    <string name="db_hash_db">악성 해시 DB</string>
+    <string name="db_yara_db">패턴 규칙</string>
+    <string name="db_signature_verified">서명 검증됨</string>
+    <string name="db_signature_unsigned">서명 없음(내장 데이터)</string>
+    <string name="db_installed_at">설치 시각</string>
+    <string name="db_not_installed">아직 데이터 없음</string>
+    <string name="db_update_now">수동 업데이트</string>
+    <string name="db_updating">업데이트 중…</string>
+    <string name="db_history">업데이트 이력</string>
+    <string name="db_history_empty">업데이트 이력이 없습니다.</string>
+    <string name="db_not_configured">업데이트 채널이 설정되지 않았습니다. docs/UPDATE_GUIDE.md 를 참고하세요.</string>
+    <string name="db_status_success">성공</string>
+    <string name="db_status_failed">실패</string>
+    <string name="db_status_running">진행 중</string>
+    <string name="db_status_rollback">롤백 거부</string>
+    <string name="db_status_integrity">무결성 실패</string>
+    <string name="db_status_not_configured">설정 안 됨</string>
+    <string name="db_status_up_to_date">최신</string>
+    <string name="db_status_unknown">알 수 없음</string>
+
+    <!-- 설정 -->
+    <string name="settings_title">설정</string>
+    <string name="settings_section_scan">검사</string>
+    <string name="settings_auto_scan">자동 검사(주 1회)</string>
+    <string name="settings_auto_update">필터·DB 자동 업데이트(하루 1회)</string>
+    <string name="settings_notifications">알림</string>
+    <string name="settings_section_display">화면</string>
+    <string name="settings_theme">다크 모드</string>
+    <string name="settings_theme_system">시스템 설정</string>
+    <string name="settings_theme_light">라이트</string>
+    <string name="settings_theme_dark">다크</string>
+    <string name="settings_language">언어</string>
+    <string name="settings_language_system">시스템 설정</string>
+    <string name="settings_section_network">네트워크</string>
+    <string name="settings_dns_mode">DNS 서버</string>
+    <string name="settings_dns_system">시스템 DNS</string>
+    <string name="settings_dns_doh">DNS-over-HTTPS</string>
+    <string name="settings_dns_dot">DNS-over-TLS</string>
+    <string name="settings_dns_provider">제공자</string>
+    <string name="settings_dns_provider_cloudflare">Cloudflare</string>
+    <string name="settings_dns_provider_google">Google</string>
+    <string name="settings_dns_provider_adguard">AdGuard</string>
+    <string name="settings_dns_provider_custom">직접 입력</string>
+    <string name="settings_dns_custom_hint">예: dns.example.com</string>
+    <string name="settings_block_mode">차단 응답 방식</string>
+    <string name="settings_block_nxdomain">NXDOMAIN</string>
+    <string name="settings_block_null">0.0.0.0</string>
+    <string name="settings_section_privacy">개인정보</string>
+    <string name="settings_retention">차단 기록 보관 기간</string>
+    <string name="settings_retention_value">%1$d일</string>
+    <string name="settings_clear_history">검사·차단 기록 삭제</string>
+    <string name="settings_clear_confirm">모든 검사 결과와 차단 기록을 삭제할까요? 이 작업은 되돌릴 수 없습니다.</string>
+    <string name="settings_cleared">기록을 삭제했습니다.</string>
+    <string name="settings_privacy_policy">개인정보 처리방침</string>
+    <string name="settings_section_about">정보</string>
+    <string name="settings_version">앱 버전</string>
+    <string name="settings_licenses">오픈소스 라이선스</string>
+    <string name="settings_licenses_desc">사용한 오픈소스 목록과 라이선스 전문</string>
+    <string name="settings_health">엔진 진단</string>
+
+    <!-- 알림 -->
+    <string name="notif_channel_vpn">VPN 상태</string>
+    <string name="notif_channel_vpn_desc">광고 차단 VPN 이 켜져 있는 동안 표시됩니다.</string>
+    <string name="notif_channel_scan">검사 결과</string>
+    <string name="notif_channel_scan_desc">검사 완료와 위험 발견 알림</string>
+    <string name="notif_channel_update">보안 DB 업데이트</string>
+    <string name="notif_channel_update_desc">필터·위협 DB 업데이트 결과</string>
+    <string name="notif_vpn_running">광고 차단이 켜져 있습니다</string>
+    <string name="notif_vpn_paused">광고 차단이 일시 중지되었습니다</string>
+    <string name="notif_vpn_counters">차단 %1$d건 · 질의 %2$d건 · %3$s</string>
+    <string name="notif_vpn_upstream_default">시스템 DNS</string>
+    <string name="notif_scan_done">검사 완료</string>
+    <string name="notif_scan_danger">위험 %1$d건이 발견되었습니다. 결과를 확인하세요.</string>
+    <string name="notif_scan_clean">알려진 위협이 발견되지 않았습니다.</string>
+    <string name="action_stop_vpn">중지</string>
+
+    <!-- 판정/근거/조언 -->
+    <string name="reason_confirmed_hash">검증된 악성 해시와 일치</string>
+    <string name="reason_heuristic_only">악성 확정 근거는 없으나 주의가 필요</string>
+    <string name="reason_no_known_threat">실행된 검사 범위에서 알려진 위협 없음</string>
+    <string name="reason_not_scanned">검사를 수행하지 못함</string>
+    <string name="reason_partial_scope">일부 항목은 검사하지 못함</string>
+    <string name="reason_scan_failed">검사 실패</string>
+    <string name="error_file_access">파일에 접근할 수 없습니다.</string>
+    <string name="error_archive_limit">압축 해제 한도를 초과했습니다.</string>
+
+    <string name="finding_known_malware">알려진 악성 파일과 일치</string>
+    <string name="finding_exported_component">권한 없이 외부에 열린 컴포넌트</string>
+    <string name="finding_accessibility_service">접근성 서비스 선언</string>
+    <string name="finding_device_admin">기기 관리자 기능</string>
+    <string name="finding_manifest_missing">매니페스트 분석 불가</string>
+    <string name="finding_debuggable">디버그 모드 허용</string>
+    <string name="finding_cleartext">암호화되지 않은 HTTP 허용</string>
+    <string name="finding_low_target_sdk">오래된 Android 대상 버전</string>
+    <string name="finding_unsigned">서명 정보 없음</string>
+    <string name="finding_path_traversal">비정상 ZIP 경로</string>
+    <string name="finding_hidden_payload">숨겨진 실행 파일 포함</string>
+    <string name="finding_no_dex">코드 없음(리소스 전용)</string>
+    <string name="finding_zip_bomb">압축 폭탄 의심</string>
+    <string name="finding_url_strings">URL 문자열 다수 포함</string>
+    <string name="finding_shell_strings">셸 관련 문자열 포함</string>
+    <string name="finding_sms_plus_internet">SMS 권한 + 인터넷 조합</string>
+    <string name="finding_premium_sms_risk">고가 SMS 결제 위험 조합</string>
+    <string name="finding_audio_contacts_upload">녹음 + 연락처 + 인터넷 조합</string>
+    <string name="finding_overlay_accessibility">오버레이 + 접근성 조합</string>
+    <string name="finding_silent_install">앱 설치 요청 + 인터넷</string>
+    <string name="finding_device_admin_internet">기기 관리자 + 인터넷</string>
+    <string name="finding_call_log_upload">통화 기록 + 인터넷</string>
+
+    <string name="finding_pattern_eum_dynamic_code_loading">런타임 코드 로딩 흔적</string>
+    <string name="finding_pattern_eum_hidden_sms_api">SMS 전송 API 사용</string>
+    <string name="finding_pattern_eum_accessibility_keylogging">접근성 이벤트 수집 흔적</string>
+    <string name="finding_pattern_eum_overlay_phishing">오버레이 피싱 패턴</string>
+    <string name="finding_pattern_eum_device_admin_abuse">기기 관리자 악용 패턴</string>
+    <string name="finding_pattern_eum_anti_analysis">분석 회피(에뮬레이터 탐지)</string>
+    <string name="finding_pattern_eum_shell_execution">셸 실행 시도</string>
+    <string name="finding_pattern_eum_reflection_hide">리플렉션 은닉 호출</string>
+    <string name="finding_pattern_eum_crypto_file_encryption">파일 암호화 패턴</string>
+    <string name="finding_pattern_eum_tracking_sdk">광고·추적 SDK 포함</string>
+
+    <string name="why_read_sms">SMS 읽기 권한</string>
+    <string name="why_send_sms">SMS 전송 권한</string>
+    <string name="why_receive_sms">SMS 수신 권한</string>
+    <string name="why_receive_mms">MMS 수신 권한</string>
+    <string name="why_read_contacts">연락처 읽기 권한</string>
+    <string name="why_write_contacts">연락처 수정 권한</string>
+    <string name="why_call_phone">전화 걸기 권한</string>
+    <string name="why_read_call_log">통화 기록 읽기 권한</string>
+    <string name="why_record_audio">마이크 녹음 권한</string>
+    <string name="why_camera">카메라 권한</string>
+    <string name="why_fine_location">정밀 위치 권한</string>
+    <string name="why_bg_location">백그라운드 위치 권한</string>
+    <string name="why_overlay">다른 앱 위에 표시 권한</string>
+    <string name="why_install_packages">앱 설치 요청 권한</string>
+    <string name="why_device_admin">기기 관리자 권한</string>
+    <string name="why_accessibility">접근성 서비스 권한</string>
+    <string name="why_notification_access">알림 접근 권한</string>
+    <string name="why_usage_stats">앱 사용 기록 접근</string>
+    <string name="why_manage_storage">전체 저장소 관리</string>
+    <string name="why_phone_state">기기 상태 읽기</string>
+    <string name="why_write_settings">시스템 설정 변경</string>
+
+    <string name="advice_review_permissions">앱이 이 권한이 필요한 이유를 확인하고, 낯선 앱이면 삭제를 검토하세요.</string>
+    <string name="advice_review_app">설치 출처를 확인하고, 필요 없다면 삭제를 검토하세요.</string>
+    <string name="advice_delete_file">이 파일을 열지 말고 삭제하세요.</string>
+    <string name="advice_update_app">앱을 최신 버전으로 업데이트하세요.</string>
+    <string name="advice_check_install_source">공식 스토어가 아닌 곳에서 받은 앱인지 확인하세요.</string>
+    <string name="advice_check_sms_app">SMS 를 읽고 전송하는 앱이라면 기본 문자 앱인지 확인하세요.</string>
+    <string name="advice_check_billing">통신사 소액결제 내역을 확인하세요.</string>
+    <string name="advice_disable_accessibility">설정 &gt; 접근성에서 이 앱의 접근성 권한을 끄세요.</string>
+    <string name="advice_check_device_admin">설정 &gt; 보안 &gt; 기기 관리자에서 이 앱을 해제하세요.</string>
+    <string name="advice_review_component">앱을 신뢰하지 않는다면 삭제를 검토하세요.</string>
+
+    <!-- 접근성 설명 -->
+    <string name="cd_app_logo">EUM SECURITY PRO 로고</string>
+    <string name="cd_status_shield">보안 상태 아이콘</string>
+    <string name="cd_switch_adblock">광고 차단 켜기 또는 끄기</string>
+    <string name="cd_chart_hourly">시간대별 차단 건수 막대 그래프</string>
+    <string name="cd_progress">검사 진행률</string>
+
+    <!-- 추가 안내 -->
+    <string name="support_email">support@eum-security.example</string>
+    <string name="adblock_excluded_restart">앱별 예외는 VPN 을 다시 켜면 적용됩니다.</string>
+    <string name="adblock_vpn_permission_hint">VPN 사용에 동의해야 광고 차단이 시작됩니다.</string>
+    <string name="scan_type_quick">빠른 검사</string>
+    <string name="scan_type_installed">설치 앱 검사</string>
+    <string name="scan_type_apk">APK 파일 검사</string>
+</resources>
